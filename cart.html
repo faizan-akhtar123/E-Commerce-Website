@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart page</title>
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/35243afa87.js" crossorigin="anonymous"></script>
+
+    <!--CSS Styling-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <!--header tag-->
+    <section id="full-container1" class="unipadding">
+        <header id="container">
+            <section id="company-logo">
+                <a href="index.html"><img src="images/images/logo.png" alt="Company-logo"></a>
+            </section>
+            <section id="menuBar">
+                <ul>
+                    <li><a href="javascript:void(0)" ></a><i class="fa-solid fa-xmark" id="mobilecross"></i></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="cart.html"><img src="images/images/cart.png" alt="Cart"></a></li>
+                </ul>
+            </section>
+            
+            <section id="mobile-button">
+                <i class="fa-solid fa-bars"id="mobilemenu" onclick="showMenu()" ></i>
+            </section>
+        </header>
+    </section>
+    <section id="cartsection" style="padding: 8% 11%;">
+        <section id="subtotal">
+            <p>Product</p>
+            <p>Quantity</p>
+            <p>Subtotal</p>
+        </section>
+        <section class="redprintedt-shirt">
+            <section class="productname-1">
+                <section class="productname">
+                    <img src="images/images/buy-1.jpg" alt="">
+                </section>
+                <section class="productdetail">
+                    <p>Red Printed T-shirt</p>
+                    <p>Price $50.00</p>
+                    <p style="color: red;">Remove</p>
+                </section>
+            </section>
+            <section class="quantity-1">
+                <select name="" class="one">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+            </section>
+            <section class="price-1">
+                <p>$50.00</p>
+            </section>
+        </section>
+        <section class="redprintedt-shirt">
+            <section class="productname-1">
+                <section class="productname">
+                    <img src="images/images/buy-2.jpg" alt="">
+                </section>
+                <section class="productdetail">
+                    <p>HRX Sports Shoes</p>
+                    <p>Price $75.00</p>
+                    <p style="color: red;">Remove</p>
+                </section>
+            </section>
+            <section class="quantity-1">
+                <select name="" class="one">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </section>
+            <section class="price-1">
+                <p>$75.00</p>
+            </section>
+        </section>
+        <section class="redprintedt-shirt">
+            <section class="productname-1">
+                <section class="productname">
+                    <img src="images/images/buy-3.jpg" alt="">
+                </section>
+                <section class="productdetail">
+                    <p>Red Printed T-shirt</p>
+                    <p>Price $75.00</p>
+                    <p style="color: red;">Remove</p>
+                </section>
+            </section>
+            <section class="quantity-1">
+                <select name="" id="" class="one">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </section>
+            <section class="price-1">
+                <p>$75.00</p>
+            </section>
+        </section>
+    </section>
+    <!--Proceed to checkout section-->
+    <section id="total-section" style="padding: 0% 6%;">
+        <section class="totalprice" id="bordertop">
+        <p>Subtotal</p>
+        <p>$200.00</p>
+        </section>
+        <section class="totalprice">
+            <p id="tax">Tax</p>
+            <p id="value">$35.00</p>
+        </section>
+        <section class="totalprice">
+            <p id="total">Total</p>
+            <p id="value-1">$235.00</p>
+        </section>
+    </section>
+    <section id="checkout" class="unipadding-2">
+        <button>Proceed to checkout&nbsp;<i class="fa-solid fa-arrow-right-long"></i></button>
+    </section>
+    <!--Footer section-->
+    <footer class="unipadding" id="footer-container">
+        <section id="footerdiv">
+            <section id="footerdiv-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <section class="app-store">
+                    <a href="#"><img src="images/images/play-store.png" alt="Google-Play"></a>
+                    <a href="#"><img src="images/images/app-store.png" alt="Iphone"></a>
+                </section>
+            </section>
+            <section id="footerdiv-2">
+                <section id="red-store">
+                    <a href="#"><img src="images/images/logo.png" alt="logo"></a>
+                </section>
+                <p>Our Purpose is to Satisfactorily Make the Pleasure and Benefits of Sports Accessible to the party</p>
+            </section>
+            <section id="footerdiv-3">
+                <h3>Useful Links</h3>
+                <p><a href="#">Coupons</a></p>
+                <p><a href="#">Blog Post</a></p>
+                <p><a href="#">Return Policy</a></p>
+                <p><a href="#">Join Affiliate</a></p>
+            </section>
+            <section id="footerdiv-4">
+                <h3>Follow Us</h3>
+                <p><a href="#">Facebook</a></p>
+                <p><a href="#">Twitter</a></p>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">YouTube</a></p>
+            </section>
+        </section>
+        <section id="copyright">
+            <p>Copyright2022 &copy;-Faizan Akhtar</p>
+        </section>
+    </footer>
+ <script src="js/script.js"></script>   
+</body>
+</html>

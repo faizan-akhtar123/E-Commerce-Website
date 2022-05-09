@@ -1,0 +1,648 @@
+/* E Commerce Website
+Author: Faizan Akhtar
+ */
+ /* CSS HOME Page */
+ body{
+    margin: 0;
+    padding: 0;
+}
+.unipadding{
+    padding: 0 7%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    
+    
+}
+#full-container{
+    background: radial-gradient(#fff, #ffd6d6);
+    height: 700px;
+}
+#container{
+    display: flex;
+}
+#company-logo{
+    flex: 1;
+}
+#company-logo img{
+    width: 150px;
+}
+#menuBar{
+    flex: 1;
+}
+#menuBar ul{
+    display: flex;
+    margin: 0;
+}
+#mobilecross{
+    display: none;
+}
+#mobilemenu{
+    display: none;
+}
+li{
+    flex: 1;
+    padding: 10px;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+
+}
+ul li:last-child img{
+    width: 21px;
+}
+
+/* GIVE YOUR WORKOUT A NEW STYLE */
+#workout{
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#style{
+    padding-top: 25%;
+}
+#img-1{
+    align-self: center;
+    padding-top: 43%;
+}
+
+#style h1{
+    font-size: 40px;
+}
+#style p{
+    text-align: justify;
+}
+
+#img-1 img{
+    width: 100%;
+}
+button{
+    padding: 10px;
+    border-radius: 30px;
+    padding-left: 21px;
+    padding-right: 24px;
+    background-color: #ff523b;
+    transition: 0.5s;
+    border: none;
+    transition: 0.5;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #563434
+}
+/* Featured Products Section */
+#products{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 11%;
+    grid-gap: 1%;
+}
+.bolder{
+    font-weight: bold;
+}
+
+#category-1 img, #category-2 img, #category-3 img{
+    width: 100%;
+}
+
+.heading_1{
+    text-align: center;
+    position: relative;
+    line-height: 50px;
+}
+.heading_1::after{
+    content: '';
+    width: 80px;
+    height: 5px;
+    border-radius: 1px solid red;
+    border-radius: 5px;
+    background: #ff523b;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#mens-product, #latest-product-1 ,#latest-product-2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 3%;
+    grid-gap: 1%;
+}
+#product-1 img, #product-2 img, #product-3 img, #product-4 img, #product-5 img, #product-6 img, #product-7 img, #product-8 img, #product-9 img, #product-10 img, #product-11 img, #product-12 img {
+    width: 100%;
+    transition: transform 0.5s;
+}
+#product-1 img:hover, #product-2 img:hover, #product-3 img:hover, #product-4 img:hover, #product-5 img:hover, #product-6 img:hover, #product-7 img:hover, #product-8 img:hover, #product-9 img:hover, #product-10 img:hover, #product-11 img:hover, #product-12 img:hover{
+    transform: translateY(-5px);
+}
+ /* #product-12 img,  #product-9 img{
+    height: 70.5%;
+} */
+.image-height{
+    height: 70.5%;
+}
+#product-5 img, #product-6 img{
+    height: 81%;
+}
+#product-7 img, #product-8 img{
+    height: 81%;
+}
+.image-height-1{
+    height: 70.5%;
+}
+/* Exclusively Available on RedStore */
+#exclusive{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+#watch{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding-bottom: 20px;
+}
+#watchimage img{
+    padding-top: 23%;
+    width: 67%;
+}
+#smartband h1{
+    font-size: 50px;
+    margin: 0;
+}
+#smartband p{
+    color: gray;
+    text-align: justify;
+}
+/* Testimonial */
+#testimonial{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1%;
+    padding-top: 5%;
+}
+#testimonial-1, #testimonial-2, #testimonial-3{
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    transition: transform 0.5s;
+}
+#testimonial-1:hover, #testimonial-2:hover, #testimonial-3:hover{
+    transform: translateY(10px);
+   
+}
+.user-img{
+    text-align: center;
+}
+.user-img img{
+    border-radius: 50%;
+}
+ #testimonial-1 p, #testimonial-1 h3, #testimonial-2 p, #testimonial-2 h3, #testimonial-3 p, #testimonial-3 h3{
+    text-align: center;
+}
+#testimonial-1 p, #testimonial-2 p, #testimonial-3 p{
+    color: gray;
+}
+.quotation{
+    text-align: center;
+}
+.doublequote{
+    color: red;
+}
+.rating-star{
+    text-align: center;
+    padding: 10px 0;
+}
+.fa-star, .fa-star-half-stroke{
+    color: red;
+}
+/* Brand Options */
+#brand-option{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 1%;
+    padding-top: 5%;
+}
+#brand-option #logo-image-1,#brand-option #logo-image-2,#brand-option #logo-image-3,#brand-option #logo-image-4,#brand-option #logo-image-5{
+    filter: grayscale(100%);
+}
+#brand-option #logo-image-1:hover,#brand-option #logo-image-2:hover,#brand-option #logo-image-3:hover,#brand-option #logo-image-4:hover,#brand-option #logo-image-5:hover{
+    filter: grayscale(0);
+}
+/* Footer section */
+#footer-container{
+    background-color: black;
+}
+#footerdiv{
+    display: grid;
+    grid-template-columns: auto 38% auto auto;
+    padding-top: 5%;
+    border-bottom: 1px solid white;
+}
+#footerdiv-1 img, #footerdiv-2 img, #footerdiv-3 img, #footerdiv-4 img{
+    width:150px;
+}
+#footerdiv-1 h3, #footerdiv-3 h3, #footerdiv-4 h3{
+    color: white;
+}
+#footerdiv-3 h3, #footerdiv-4 h3{
+    text-align: center;
+}
+#footerdiv-1 p{
+    color: white;
+}
+#footerdiv-2 p, #footerdiv-3 p, #footerdiv-4 p{
+    color: white;
+    text-align: center;
+}
+#red-store{
+    text-align: center;
+}
+#footerdiv-3 a, #footerdiv-4 a{
+    color: white;
+    text-decoration: none;
+}
+#copyright{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#copyright p{
+    color: white;
+}
+/* CSS PRODUCTS PAGE */
+#full-container1{
+    background-color: white;
+}
+#sorting{
+    display: flex;
+}
+#sorting h1{
+    flex: 1;
+}
+#default{
+    flex: 1;
+    text-align: right;
+}
+#default select{
+    margin-top: 23.904px;
+    border: 1px solid red;
+}
+.sort:focus{
+    outline: none;
+}
+/* All Products */
+.unipadding-1{
+    padding: 8% 8%;
+}
+#button-section{
+    margin: 18px 0px;
+}
+.btn_1{
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 0px;
+}
+.btn_1:hover{
+    color : white;
+    background-color: red;
+    cursor: pointer;
+}
+/* Product-1 */
+#product-image{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#bigimage img{
+    width: 100%;
+}
+.unipadding-2{
+    padding: 8% 6%;
+}
+#button-section input{
+    width: 27.453px;
+    height: 34px;
+    border: 1px solid red;
+}
+#button-section input:focus{
+    outline: none;
+}
+.fa-indent{
+    color: red;
+}
+
+#smallimage img:nth-of-type(even), #smallimage img:nth-of-type(odd){
+    width: 24.38%;
+    height: auto;
+}
+#contentsection{
+    margin-left: 5%;
+}
+#contentsection select{
+    border: 1px solid red;
+}
+#red{
+    font-size: 50px;
+    margin: 0;
+}
+.dollar{
+    font-weight: bold;
+}
+#relatedproduct{
+    display: flex;
+}
+#relatedproduct p{
+    flex: 1;
+    text-align: right;
+}
+/* Cart section */
+#subtotal{
+    display: flex;
+    background-color: red;
+    color: white;
+}
+#subtotal p:first-child{
+    flex: 1;
+}
+#subtotal p:nth-of-type(even){
+    flex: 1;
+    text-align: center;
+    
+} 
+#subtotal p:last-child{
+    flex: 1;
+    text-align: right;
+
+}
+.redprintedt-shirt{
+    display: flex;
+}
+.productname-1{
+    display: flex;
+}
+
+.price-1{
+    flex: 1;
+    text-align: right;
+    font-weight: bold;
+}
+.quantity-1{
+    text-align: center;
+    flex: 1;
+}
+.one{
+    margin-top: 3%;
+}
+/* Proceed to check out  */
+#bordertop
+{
+    border-top: 3px solid red;
+}
+.totalprice{
+    display: flex;
+}
+.totalprice p:first-child{
+    flex: 1;
+    text-align: right;
+    font-weight: bold;
+}
+.totalprice p:last-child{
+    flex: 1;
+    text-align: right;
+    font-weight: bold;
+}
+#tax{
+    padding-right: 6%;
+}
+#value{
+    padding-right: 1%;
+}
+#total{
+    padding-right: 5%;
+}
+#checkout{
+    text-align: right;
+}
+/* Account CSS */
+#signupsection{
+    background: radial-gradient(#fff, #ffd6d6);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+}
+#footballing{
+    flex-basis: 50%;
+}
+#blankdiv{
+    flex-basis: 50%;
+    
+    
+}
+#footballing img{
+    width: 100%;
+}
+#signupsection-1{
+    width: 44%;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    left: 20vh;
+}
+#login{
+    display: flex;
+    justify-content: space-around;
+}
+/* .register_1, .register_2{
+    position: relative;
+}
+
+ .register_1::after{
+    content: '';
+    width: 28px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transition: transform 0.5s;
+}
+.register_1::after:hover{
+    transform: translateX(10%);
+}
+.register_2::after{
+    content: '';
+    width: 28px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    right: 69px;
+    transition: transform 0.5s;
+    
+}
+.register_2::after:hover{
+    
+    transform: translateX(10%);
+}  */
+
+
+.username{
+    text-align: center;
+    padding: 10px 0;
+}
+.username input{
+    width: 80%;
+    padding: 10px 0;
+}
+#register{
+    padding: 10px 0;
+    text-align: center;
+    padding-bottom: 27%;
+}
+
+#register input {
+    width: 86%;
+    border-radius: 20px;
+    padding: 10px 0;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+
+
+/* Responsive Home Page */
+/* responsive mobile button */
+@media only screen and (max-width:500px){
+    #mobilecross{
+        display: block;
+    }
+    #mobilemenu{
+        display: block;
+        font-size: 30px;
+    }
+    #menuBar ul{
+        display: block;
+    }
+    #menuBar{
+        right: 0;
+        top: 0vh;
+        width: 200px;
+        height: 50vh;
+        position: absolute;
+        transition: 1s;
+        background-color: green;
+        
+    }
+    #menubar ul li{
+        border-bottom: 1px solid red;
+        padding: 22px;
+    }
+    #workout{
+        display: block;
+    }
+    #full-container{
+        height: 900px;
+    }
+    #style h1{
+        font-size: 44px;
+        padding: 0% 16%;
+        margin-top: -6%;
+        margin-left: 5%;
+        margin-right: 0%;
+        text-align: center;
+    }
+    #style p{
+        text-align: center;
+        font-size: 17px
+    }
+    #explorenow{
+        text-align: center;
+    }
+    #img-1{
+        text-align: center;
+    }
+    #img-1 img{
+        width: 100%;
+        position: relative;
+        bottom: 131px;
+    }
+    #products, #mens-product, #latest-product-1, #latest-product-2, #watch, #testimonial, #brand-option, #footerdiv{
+        display: block;
+    }
+    #category-2, #category-3, #testimonial-2, #testimonial-3, #footerdiv-2{
+        padding-top: 20px;
+    }
+    #exclusive{
+        padding-bottom: 20px;
+    }
+    #logo-image-1, #logo-image-2, #logo-image-3, #logo-image-4, #logo-image-5, #footerdiv-1 h3,#footerdiv-1 p, .app-store{
+        text-align: center;
+    }
+
+
+}
+
+/* Responsive Products page */
+@media only screen and (max-width:500px){
+    .btn_1{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+/* Responsive Product-1 page */
+@media only screen and (max-width:500px){
+    #product-image{
+        display: block;
+    }
+    #bigimage img{
+        width: 100%;
+    }
+    #smallimage img:nth-of-type(even), #smallimage img:nth-of-type(odd){
+        width: 24%;
+    }
+    #red{
+        font-size: 32px;
+    }
+    #wardrobe{
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+/* Responsive Cart Page */
+@media only screen and (max-width:500px){
+    .productname-1{
+        display:block;
+    }
+    .productname img{
+        width: 96px;
+    }
+    #subtotal p:nth-of-type(even){
+        text-align: right;
+    }
+    .one{
+        margin-top: 26%;
+    }
+    .productdetail p:first-child{
+        display: none;
+    }
+}
+/* Responsive Accounts Page */
+@media only screen and (max-width:500px){
+    #signupsection{
+        display: block;
+        height: 662px;
+    }
+    #signupsection-1{
+        position: static;
+        margin: 0 auto;
+        width: 89%
+    }
+}
